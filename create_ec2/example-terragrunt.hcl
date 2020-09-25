@@ -13,6 +13,7 @@ inputs = {
 }
 
 
+# BUCKET S3 CONFIGS
 remote_state {
   backend = "s3"
   config = {
